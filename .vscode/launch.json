@@ -1,0 +1,90 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "WashingMachine (Debug)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachine Mac Debug Build",
+			"program": "/Users/alex/Documents/UnrealProjects/WashingMachine/Binaries/Mac/WashingMachine-Mac-Debug.app/Contents/MacOS/WashingMachine-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "WashingMachine (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachine Mac DebugGame Build",
+			"program": "/Users/alex/Documents/UnrealProjects/WashingMachine/Binaries/Mac/WashingMachine-Mac-DebugGame.app/Contents/MacOS/WashingMachine-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "WashingMachine (Development)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachine Mac Development Build",
+			"program": "/Users/alex/Documents/UnrealProjects/WashingMachine/Binaries/Mac/WashingMachine.app/Contents/MacOS/WashingMachine",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "WashingMachine (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachine Mac Shipping Build",
+			"program": "/Users/alex/Documents/UnrealProjects/WashingMachine/Binaries/Mac/WashingMachine-Mac-Shipping.app/Contents/MacOS/WashingMachine-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "WashingMachine (Test)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachine Mac Test Build",
+			"program": "/Users/alex/Documents/UnrealProjects/WashingMachine/Binaries/Mac/WashingMachine-Mac-Test.app/Contents/MacOS/WashingMachine-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "WashingMachineEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachineEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/alex/Documents/UnrealProjects/WashingMachine/WashingMachine.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "WashingMachineEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachineEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/alex/Documents/UnrealProjects/WashingMachine/WashingMachine.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "WashingMachineEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "WashingMachineEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/alex/Documents/UnrealProjects/WashingMachine/WashingMachine.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		}
+	]
+}

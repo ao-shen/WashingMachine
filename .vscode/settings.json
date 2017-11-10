@@ -1,0 +1,10 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"/Users/alex/Documents/UnrealProjects/WashingMachine/.vscode": true,
+		"/Users/alex/Documents/UnrealProjects/WashingMachine/Content": true,
+		"/Users/alex/Documents/UnrealProjects/WashingMachine/Intermediate": true,
+		"/Users/alex/Documents/UnrealProjects/WashingMachine/Saved": true,
+		"/Users/alex/Documents/UnrealProjects/WashingMachine/WashingMachine.xcworkspace": true
+	}
+}
